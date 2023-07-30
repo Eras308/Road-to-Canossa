@@ -3,7 +3,7 @@ character_event = {
 
     trigger = {
         has_character_flag = journey_to_canossa_begun
-        location = c_canossa
+        location = b_canossa
     }
 
     desc = {
