@@ -1,0 +1,21 @@
+character_event = {
+    id = journey_to_canossa.6
+
+    trigger = {
+        has_character_flag = journey_to_canossa_begun
+        location = b_canossa
+    }
+
+    desc = {
+        text = EVTDESCjourney_to_canossa.7
+    }
+
+    option = {
+        name = EVTOPTAjourney_to_canossa.7
+        remove_relation = { who = d_papacy type = excommunicated }
+        modify_opinion = { who = d_papacy value = 100 }
+        add_piety = 300
+        add_prestige = 200
+        remove_character_flag = journey_to_canossa_begun
+    }
+}

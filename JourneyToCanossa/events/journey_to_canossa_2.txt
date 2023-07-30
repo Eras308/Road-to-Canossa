@@ -1,0 +1,18 @@
+character_event = {
+    id = journey_to_canossa.2
+
+    desc = {
+        text = EVTDESCjourney_to_canossa.2
+    }
+
+    option = {
+        name = EVTOPTAjourney_to_canossa.2
+        set_character_flag = journey_to_canossa_begun
+        character_event = { id = journey_to_canossa.3 days = 10 }
+    }
+
+    option = {
+        name = EVTOPTBjourney_to_canossa.2
+        modify_opinion = { who = d_papacy value = -20 }
+    }
+}

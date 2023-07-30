@@ -1,0 +1,10 @@
+l_english:
+ EVTDESCjourney_to_canossa.1:0 "I have decided to seek forgiveness from the Pope and I am starting my journey towards Canossa. I hope this strengthens my position."
+ EVTDESCjourney_to_canossa.2:0 "The journey is long and arduous, but I am resolved to achieve my goal."
+ EVTDESCjourney_to_canossa.3:0 "I have finally arrived at the gates of Canossa. It's time to seek the Pope's forgiveness."
+ EVTDESCjourney_to_canossa.4:0 "Here I am, barefoot in the icy snow outside the gates of Canossa, waiting for the Pope's mercy. How long can I endure this humiliation while the entire court watches?"
+ EVTDESCjourney_to_canossa.5:0 "I have waited in the snow for [JTC_days_waited] days. The Pope has finally agreed to meet me."
+ EVTDESCjourney_to_canossa.6:0 "My penance has been accepted and I have been absolved. I hope this has solidified my position."
+ EVTDESCjourney_to_canossa.7:0 "I am falling ill due to the harsh conditions. But I must endure."
+ EVTOPTAjourney_to_canossa.4:0 "I will wait as long as it takes."
+ EVTOPTBjourney_to_canossa.4:0 "I can't take it anymore. I am leaving."

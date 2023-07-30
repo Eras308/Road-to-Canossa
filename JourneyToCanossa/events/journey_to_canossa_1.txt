@@ -1,0 +1,15 @@
+# Spieler bekommt die Entscheidung
+character_event = {
+    id = journey_to_canossa.1
+    hide_window = yes
+
+    trigger = {
+        has_landed_title = e_hre
+        #has_relation = { who = d_papacy type = excommunicated }
+    }
+
+    immediate = {
+        character_event = { id = journey_to_canossa.2 days = 3 }
+    }
+}
+

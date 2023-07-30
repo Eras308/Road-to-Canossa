@@ -1,0 +1,44 @@
+character_event = {
+    id = journey_to_canossa.3
+
+    trigger = {
+        has_character_flag = journey_to_canossa_begun
+        location = c_canossa
+    }
+
+    desc = {
+        text = EVTDESCjourney_to_canossa.3
+    }
+
+    option = {
+        name = EVTOPTAjourney_to_canossa.3
+        remove_relation = { who = d_papacy type = excommunicated }
+        modify_opinion = { who = d_papacy value = 100 }
+        add_piety = 300
+        add_prestige = 200
+        # 50% Chance, krank zu werden
+        random_list = {
+            50 = { add_trait = pneumonia }
+            50 = { }
+        }
+        character_event = { id = journey_to_canossa.4 days = 10 }
+    }
+
+    option = {
+        name = EVTOPTBjourney_to_canossa.3
+        modify_opinion = { who = d_papacy value = 50 }
+        add_piety = 150
+        add_prestige = 100
+        # 25% Chance, krank zu werden
+        random_list = {
+            25 = { add_trait = pneumonia }
+            75 = { }
+        }
+        character_event = { id = journey_to_canossa.5 days = 10 }
+    }
+
+    option = {
+        name = EVTOPTCjourney_to_canossa.3
+        modify_opinion = { who = d_papacy value = -20 }
+    }
+}

@@ -1,0 +1,20 @@
+decisions = {
+    start_journey_to_canossa = {
+        potential = {
+            has_landed_title = e_hre  # Holy Roman Emperor
+            religion = catholic
+            NOT = { has_character_flag = journey_to_canossa_flag }
+        }
+        allow = {
+            piety = 500
+            prestige = 500
+        }
+        effect = {
+            add_character_flag = journey_to_canossa_flag
+            character_event = { id = journey_to_canossa.1 }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}
