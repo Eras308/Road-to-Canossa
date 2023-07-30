@@ -1,5 +1,5 @@
 character_event = {
-    id = journey_to_canossa.6
+    id = journey_to_canossa.5
 
     trigger = {
         has_character_flag = journey_to_canossa_begun
